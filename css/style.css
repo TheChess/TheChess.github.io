@@ -87,7 +87,6 @@ a:focus{
 	text-align: center;
 }
 .section-header{
-	text-align: center;
 	text-transform: uppercase;
 	font-weight: 800;
 	font-size: 3.6rem;
@@ -96,15 +95,15 @@ a:focus{
 
 .portfolio img{
 	width: 100%;
-	min-width: 360px;
+	max-width: 360px;
 	box-shadow: 0px 4px 29px 0px rgba(87, 92, 97, 0.54);
 }
 
 .portfolio a{
 	display: block;
-	margin: 3rem auto 5rem;
+	margin: 2rem auto 6rem;
 	color: #333;
-	width: 12.5rem;
+	width: 17rem;
 	border-bottom: 1px solid transparent;
 }
 
@@ -186,7 +185,7 @@ font-size: 2rem;
 }
 
 .modal-btn{
-	display: inline-block;
+	display: block;
 	border: 1px solid #333;
 	padding: 10px 20px;
 	border-radius: 10px;
